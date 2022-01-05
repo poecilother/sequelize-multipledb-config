@@ -1,5 +1,7 @@
 # sequelize-multipledb-config
 
+Configures sequelize connections to multiple databases.
+
 ## How to import and use database models:
 ```javascript
 const { exampleDb1 } = require('/configs/sequelize');

@@ -10,8 +10,8 @@ const sequelize = new Sequelize(process.env.DB, process.env.USER, process.env.PA
 
 const modelDefiners = [
   // example
-  require('models/example/example1'),
-  require('models/example/example2'),
+  require('../../../models/exampleDb2/example1'),
+  require('../../../models/exampleDb2/example2'),
 ];
 
 for(const modelDefiner of modelDefiners) {
